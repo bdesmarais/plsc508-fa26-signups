@@ -1,11 +1,13 @@
-# PLSC 508 (Fall 2026) — Presentation Sign-ups
+# PLSC 508 (Fall 2026) — Methods Tutorial Sign-ups
 
-Two slots per week: the **Methods Tutorial** (present a detailed tutorial of the week's method) and the **Application Review** (write a review of, and lead discussion for, one of that week's application papers). One slot per student per type. First come, first served.
+Present a detailed tutorial of the week's method. One methods slot per student. First come, first served.
 
-**To claim a slot:** [open a claim form](../../issues/new?template=claim.yml) — pick your week and slot, submit, and a bot will write your name below within a minute (or tell you the slot is taken).
+**Sign up only for a second slot (Slot 2) if Slot 1 on the respective day is already full.** The bot enforces this automatically: your claim goes into Slot 1 if it is open, and into Slot 2 only when Slot 1 for that day is taken.
 
-| Date | Topic | Methods Tutorial | Application Review |
-|------|-------|------------------|--------------------|
+**To claim a slot:** [open the claim form](../../issues/new?template=claim-methods.yml) — pick your week, submit, and a bot will write your name below within a minute (or tell you the day is full).
+
+| Date | Topic | Slot 1 | Slot 2 |
+|------|-------|--------|--------|
 | 09/01 | Making and Visualizing Networks with R | OPEN | OPEN |
 | 09/08 | Centrality | OPEN | OPEN |
 | 09/15 | Reciprocity and Transitivity | OPEN | OPEN |

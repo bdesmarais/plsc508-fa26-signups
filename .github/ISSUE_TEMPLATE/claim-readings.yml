@@ -1,0 +1,40 @@
+name: Claim an Application Reading Review slot
+description: Sign up to review an application reading
+title: "Reading review claim"
+labels: [claim-readings]
+body:
+  - type: dropdown
+    id: week
+    attributes:
+      label: Week
+      description: Pick the week you want
+      options:
+        - "09/01 Making and Visualizing Networks with R"
+        - "09/08 Centrality"
+        - "09/15 Reciprocity and Transitivity"
+        - "09/22 Popularity and Assortative Mixing"
+        - "09/29 Community Detection"
+        - "10/06 QAP and CUG Testing"
+        - "10/13 ERGM Introduction"
+        - "10/20 ERGM Specification"
+        - "10/27 Latent Space Models"
+        - "11/03 LSM Extensions and AMEN"
+        - "11/10 Confounding of Selection and Influence"
+        - "11/17 Causal Inference with Interference and Contagion"
+        - "12/01 Graph Neural Networks for Prediction"
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Your name
+      description: As it should appear on the sign-up sheet
+    validations:
+      required: true
+  - type: input
+    id: reading
+    attributes:
+      label: Reading you are reviewing
+      description: Author(s) and year (or title) of the application paper you will review
+    validations:
+      required: true
