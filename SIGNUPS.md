@@ -7,7 +7,7 @@ Two slots per week: the **Methods Tutorial** (present a detailed tutorial of the
 | Date | Topic | Methods Tutorial | Application Review |
 |------|-------|------------------|--------------------|
 | 09/01 | Making and Visualizing Networks with R | OPEN | OPEN |
-| 09/08 | Centrality | Test Student (@bdesmarais) | OPEN |
+| 09/08 | Centrality | OPEN | OPEN |
 | 09/15 | Reciprocity and Transitivity | OPEN | OPEN |
 | 09/22 | Popularity and Assortative Mixing | OPEN | OPEN |
 | 09/29 | Community Detection | OPEN | OPEN |
