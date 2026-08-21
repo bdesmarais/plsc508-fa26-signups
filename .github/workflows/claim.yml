@@ -1,0 +1,55 @@
+name: Process slot claim
+on:
+  issues:
+    types: [opened]
+concurrency:
+  group: signup-sheet
+  cancel-in-progress: false
+permissions:
+  contents: write
+  issues: write
+jobs:
+  claim:
+    if: contains(github.event.issue.labels.*.name, 'claim')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply claim
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = context.payload.issue.body || '';
+            const slotMatch = body.match(/### Slot\s*\n\s*\n?(.+)/);
+            const nameMatch = body.match(/### Your name\s*\n\s*\n?(.+)/);
+            const close = async (msg) => {
+              await github.rest.issues.createComment({...context.repo, issue_number: context.issue.number, body: msg});
+              await github.rest.issues.update({...context.repo, issue_number: context.issue.number, state: 'closed'});
+            };
+            if (!slotMatch || !nameMatch) { await close('Could not parse the form; please use the claim template.'); return; }
+            const slot = slotMatch[1].trim();
+            const name = nameMatch[1].trim().replace(/\|/g, '/');
+            const m = slot.match(/^(\d\d\/\d\d) (.+) — (Methods Tutorial|Application Review)$/);
+            if (!m) { await close('Unrecognized slot format; please re-submit using the dropdown.'); return; }
+            const [, date, , type] = m;
+            const col = type === 'Methods Tutorial' ? 2 : 3;
+            let sheet = fs.readFileSync('SIGNUPS.md', 'utf8');
+            const lines = sheet.split('\n');
+            let done = false, taken = false;
+            for (let i = 0; i < lines.length; i++) {
+              if (!lines[i].startsWith(`| ${date} `)) continue;
+              const cells = lines[i].split('|');
+              if (cells[col + 1].trim() !== 'OPEN') { taken = true; break; }
+              cells[col + 1] = ` ${name} (@${context.payload.issue.user.login}) `;
+              lines[i] = cells.join('|');
+              done = true; break;
+            }
+            if (taken) { await close(`Sorry — the **${slot}** slot is already taken. Please open a new claim for another slot.`); return; }
+            if (!done)  { await close('Could not find that week in the sheet; please contact the instructor.'); return; }
+            fs.writeFileSync('SIGNUPS.md', lines.join('\n'));
+            const { execSync } = require('child_process');
+            execSync('git config user.name "signup-bot" && git config user.email "41898282+github-actions[bot]@users.noreply.github.com"');
+            execSync('git add SIGNUPS.md');
+            execSync(`git commit -m "Claim: ${slot} -> ${name}"`);
+            execSync('git push');
+            await close(`Confirmed: **${slot}** is yours, ${name}. See the updated sheet in SIGNUPS.md.`);
