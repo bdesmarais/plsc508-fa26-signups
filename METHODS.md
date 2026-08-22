@@ -11,7 +11,7 @@ Present a detailed tutorial of the week's method. One methods slot per student. 
 |------|-------|--------|--------|
 | 09/08 | Centrality | Bruce Desmarais | Bruce A Desmarais |
 | 09/15 | Reciprocity and Transitivity | OPEN | OPEN |
-| 09/22 | Popularity and Assortative Mixing | Rule Test One | OPEN |
+| 09/22 | Popularity and Assortative Mixing | OPEN | OPEN |
 | 09/29 | Community Detection | OPEN | OPEN |
 | 10/06 | QAP and CUG Testing | OPEN | OPEN |
 | 10/13 | ERGM Introduction | OPEN | OPEN |
