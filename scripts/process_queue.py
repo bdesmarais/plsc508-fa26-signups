@@ -43,7 +43,7 @@ def main():
             continue
         entry = name + (" — " + reading if c["type"] == "readings" else "")
         lines = open(path).read().split("\n")
-        found = applied = already = False
+        found = applied = already = slot2_blocked = False
         for i, line in enumerate(lines):
             if not line.startswith(f"| {c['week']} "):
                 continue
@@ -56,6 +56,13 @@ def main():
             if cells[3].strip() == "OPEN":
                 cells[3] = f" {entry} "
             elif cells[4].strip() == "OPEN":
+                # Slot 2 opens only after every week's Slot 1 on this sheet is full
+                any_s1_open = any(
+                    l.split("|")[3].strip() == "OPEN"
+                    for l in lines if re.match(r"\| \d\d/\d\d ", l))
+                if any_s1_open:
+                    slot2_blocked = True
+                    break
                 cells[4] = f" {entry} "
             else:
                 break
@@ -68,6 +75,8 @@ def main():
             log.append(f"applied {mid}: {c['week']} {c['type']} -> {name}")
         elif already:
             log.append(f"skip {mid}: {name} already holds a slot on {path}")
+        elif slot2_blocked:
+            log.append(f"skip {mid}: {c['week']} Slot 2 closed until every Slot 1 is full")
         elif found:
             log.append(f"skip {mid}: {c['week']} {c['type']} full")
         else:

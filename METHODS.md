@@ -4,7 +4,7 @@ Present a detailed tutorial of the week's method. One methods slot per student. 
 
 **Sign up only for a second slot (Slot 2) if Slot 1 on the respective day is already full.** The bot enforces this automatically: your claim goes into Slot 1 if it is open, and into Slot 2 only when Slot 1 for that day is taken.
 
-**To claim a slot:** use the sign-up page at **https://brucedesmarais.com/plsc508signup/** — no account of any kind is needed. Pick your week, enter your name, and submit; your claim is timestamped the moment you submit, shows as pending immediately, and lands on this sheet within about ten minutes. Claims are honored strictly in the order received. (If you prefer, and have a GitHub account, the [issue claim form](../../issues/new?template=claim-methods.yml) also works.)
+**To claim a slot:** use the sign-up page at **https://brucedesmarais.com/plsc508signup/** — no account of any kind is needed. Pick your week, enter your name, and submit; your claim is timestamped the moment you submit, shows as pending immediately, and lands on this sheet within about ten minutes. Claims are honored strictly in the order received, and Slot 2 of any week opens only after every week's Slot 1 is filled. (If you prefer, and have a GitHub account, the [issue claim form](../../issues/new?template=claim-methods.yml) also works.)
 
 
 | Date | Topic | Slot 1 | Slot 2 |

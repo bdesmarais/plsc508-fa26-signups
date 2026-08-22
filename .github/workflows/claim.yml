@@ -39,17 +39,21 @@ jobs:
             execSync('git config user.name "signup-bot" && git config user.email "41898282+github-actions[bot]@users.noreply.github.com"');
             // Claims from different issues can race on the push; on rejection, re-read the
             // sheet from origin and re-evaluate, so each attempt works from current state.
-            let claimed = null, full = false, found = false;
+            let claimed = null, full = false, found = false, slot2Blocked = false;
             for (let attempt = 1; attempt <= 6; attempt++) {
               execSync('git fetch origin main && git reset --hard origin/main');
-              claimed = null; full = false; found = false;
+              claimed = null; full = false; found = false; slot2Blocked = false;
               const lines = fs.readFileSync(file, 'utf8').split('\n');
               for (let i = 0; i < lines.length; i++) {
                 if (!lines[i].startsWith(`| ${date} `)) continue;
                 found = true;
                 const cells = lines[i].split('|');
                 if (cells[3].trim() === 'OPEN')      { cells[3] = ` ${entry} `; claimed = 'Slot 1'; }
-                else if (cells[4].trim() === 'OPEN') { cells[4] = ` ${entry} `; claimed = 'Slot 2'; }
+                else if (cells[4].trim() === 'OPEN') {
+                  const anyS1Open = lines.some(l => /^\| \d\d\/\d\d /.test(l) && l.split('|')[3].trim() === 'OPEN');
+                  if (anyS1Open) { slot2Blocked = true; break; }
+                  cells[4] = ` ${entry} `; claimed = 'Slot 2';
+                }
                 else { full = true; break; }
                 lines[i] = cells.join('|');
                 break;
@@ -66,5 +70,6 @@ jobs:
               }
             }
             if (!found)  { await close('Could not find that week in the sheet; please contact the instructor.'); return; }
+            if (slot2Blocked) { await close(`Sorry — Slot 1 for **${week}** is taken, and Slot 2 does not open until every week has a Slot 1 presenter. Please claim a week whose Slot 1 is still open.`); return; }
             if (full)    { await close(`Sorry — both slots for **${week}** are already taken. Please open a new claim for another week.`); return; }
             if (claimed) { await close(`Confirmed: **${claimed}** for **${week}** is yours, ${name}. See the updated sheet in ${file}.`); }
