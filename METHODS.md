@@ -4,15 +4,13 @@ Present a detailed tutorial of the week's method. One methods slot per student. 
 
 **Sign up only for a second slot (Slot 2) if Slot 1 on the respective day is already full.** The bot enforces this automatically: your claim goes into Slot 1 if it is open, and into Slot 2 only when Slot 1 for that day is taken.
 
-**To claim a slot,** either way works; claims are honored in the order they arrive:
+**To claim a slot:** use the sign-up page at **https://brucedesmarais.com/plsc508signup/** — no account of any kind is needed. Pick your week, enter your name, and submit; your claim is timestamped the moment you submit, shows as pending immediately, and lands on this sheet within about ten minutes. Claims are honored strictly in the order received. (If you prefer, and have a GitHub account, the [issue claim form](../../issues/new?template=claim-methods.yml) also works.)
 
-- **With a GitHub account:** [open the claim form](../../issues/new?template=claim-methods.yml) — pick your week, submit, and a bot writes your name below within a minute (or tells you the day is full).
-- **Without any account:** email **plsc508signups@agentmail.to** with the subject line `Methods tutorial MM/DD` (for example, `Methods tutorial 09/08`) and your full name in the body. Your name appearing on this sheet is your confirmation; email claims are usually processed within a few minutes.
 
 | Date | Topic | Slot 1 | Slot 2 |
 |------|-------|--------|--------|
-| 09/08 | Centrality | Web Test One | Web Test Two |
-| 09/15 | Reciprocity and Transitivity | Browser Test Student | OPEN |
+| 09/08 | Centrality | OPEN | OPEN |
+| 09/15 | Reciprocity and Transitivity | OPEN | OPEN |
 | 09/22 | Popularity and Assortative Mixing | OPEN | OPEN |
 | 09/29 | Community Detection | OPEN | OPEN |
 | 10/06 | QAP and CUG Testing | OPEN | OPEN |

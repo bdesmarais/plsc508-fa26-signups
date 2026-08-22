@@ -5,7 +5,7 @@ Two separate sign-ups:
 - **[METHODS.md](METHODS.md)** — Methods Tutorial sign-up sheet
 - **[READINGS.md](READINGS.md)** — Application Reading Review sign-up sheet
 
-Each week has two slots per sheet (methods tutorials run 9/8 through 12/1; reading reviews run 9/1 through 12/1). Sign up for a second slot (Slot 2) only if Slot 1 on the respective day is already full; the claim bot enforces this by always filling Slot 1 first. For a reading review, state which reading you are reviewing in the claim form. Claims are processed automatically, first come first served. Students can claim a slot either with the GitHub form linked on each sheet or, without any account, by emailing plsc508signups@agentmail.to as each sheet describes; the sheets themselves are public and require no login to view.
+Each week has two slots per sheet (methods tutorials run 9/8 through 12/1; reading reviews run 9/1 through 12/1). Sign up for a second slot (Slot 2) only if Slot 1 on the respective day is already full; the claim bot enforces this by always filling Slot 1 first. For a reading review, state which reading you are reviewing in the claim form. Claims are processed automatically, first come first served. Students claim slots on the sign-up page at https://brucedesmarais.com/plsc508signup/ (no account needed; claims queue with server timestamps and a scheduled Action applies them to the sheets in arrival order). The GitHub issue forms remain as an alternative for account holders. The sheets are public and require no login to view.
 
 ## Manual edits (instructor)
 
