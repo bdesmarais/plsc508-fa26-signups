@@ -9,7 +9,6 @@ body:
       label: Week
       description: Pick the week you want
       options:
-        - "09/01 Making and Visualizing Networks with R"
         - "09/08 Centrality"
         - "09/15 Reciprocity and Transitivity"
         - "09/22 Popularity and Assortative Mixing"
