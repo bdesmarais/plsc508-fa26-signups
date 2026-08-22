@@ -13,7 +13,7 @@ Write a review of, and lead discussion for, one of the week's application papers
 |------|-------|--------|--------|
 | 09/01 | Making and Visualizing Networks with R | OPEN | OPEN |
 | 09/08 | Centrality | OPEN | OPEN |
-| 09/15 | Reciprocity and Transitivity | OPEN | OPEN |
+| 09/15 | Reciprocity and Transitivity | Web Test Reader — Dorff and Ward 2013 | OPEN |
 | 09/22 | Popularity and Assortative Mixing | OPEN | OPEN |
 | 09/29 | Community Detection | OPEN | OPEN |
 | 10/06 | QAP and CUG Testing | OPEN | OPEN |
