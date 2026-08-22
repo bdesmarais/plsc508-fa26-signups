@@ -12,7 +12,7 @@ Present a detailed tutorial of the week's method. One methods slot per student. 
 | Date | Topic | Slot 1 | Slot 2 |
 |------|-------|--------|--------|
 | 09/08 | Centrality | Web Test One | Web Test Two |
-| 09/15 | Reciprocity and Transitivity | OPEN | OPEN |
+| 09/15 | Reciprocity and Transitivity | Browser Test Student | OPEN |
 | 09/22 | Popularity and Assortative Mixing | OPEN | OPEN |
 | 09/29 | Community Detection | OPEN | OPEN |
 | 10/06 | QAP and CUG Testing | OPEN | OPEN |
