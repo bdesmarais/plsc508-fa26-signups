@@ -11,7 +11,7 @@ Present a detailed tutorial of the week's method. One methods slot per student. 
 |------|-------|--------|--------|
 | 09/08 | Centrality | Maya Kerr Coste | OPEN |
 | 09/15 | Reciprocity and Transitivity | Jody Park | OPEN |
-| 09/22 | Popularity and Assortative Mixing | OPEN | OPEN |
+| 09/22 | Popularity and Assortative Mixing | Yipeng Zhao | OPEN |
 | 09/29 | Community Detection | OPEN | OPEN |
 | 10/06 | QAP and CUG Testing | OPEN | OPEN |
 | 10/13 | ERGM Introduction | OPEN | OPEN |
