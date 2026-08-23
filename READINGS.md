@@ -9,7 +9,7 @@ Write a review of, and lead discussion for, one of the week's application papers
 
 | Date | Topic | Slot 1 | Slot 2 |
 |------|-------|--------|--------|
-| 09/01 | Making and Visualizing Networks with R | OPEN | OPEN |
+| 09/01 | Making and Visualizing Networks with R | Maya Kerr Coste — Bond et al. 2012 | OPEN |
 | 09/08 | Centrality | OPEN | OPEN |
 | 09/15 | Reciprocity and Transitivity | OPEN | OPEN |
 | 09/22 | Popularity and Assortative Mixing | OPEN | OPEN |
