@@ -9,7 +9,7 @@ Write a review of, and lead discussion for, one of the week's application papers
 
 | Date | Topic | Slot 1 | Slot 2 |
 |------|-------|--------|--------|
-| 09/01 | Making and Visualizing Networks with R | Maya Kerr Coste — Bond et al. 2012 | OPEN |
+| 09/01 | Making and Visualizing Networks with R | OPEN | OPEN |
 | 09/08 | Centrality | OPEN | OPEN |
 | 09/15 | Reciprocity and Transitivity | OPEN | OPEN |
 | 09/22 | Popularity and Assortative Mixing | OPEN | OPEN |
@@ -19,6 +19,6 @@ Write a review of, and lead discussion for, one of the week's application papers
 | 10/20 | ERGM Specification | OPEN | OPEN |
 | 10/27 | Latent Space Models | OPEN | OPEN |
 | 11/03 | LSM Extensions and AMEN | OPEN | OPEN |
-| 11/10 | Confounding of Selection and Influence | OPEN | OPEN |
+| 11/10 | Confounding of Selection and Influence | Maya Kerr Coste — Bond et al. 2012 | OPEN |
 | 11/17 | Causal Inference with Interference and Contagion | OPEN | OPEN |
 | 12/01 | Graph Neural Networks for Prediction | OPEN | OPEN |
