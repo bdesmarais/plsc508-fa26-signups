@@ -12,7 +12,7 @@ Present a detailed tutorial of the week's method. One methods slot per student. 
 | 09/08 | Centrality | Maya Kerr Coste | OPEN |
 | 09/15 | Reciprocity and Transitivity | Jody Park | OPEN |
 | 09/22 | Popularity and Assortative Mixing | Yipeng Zhao | OPEN |
-| 09/29 | Community Detection | OPEN | OPEN |
+| 09/29 | Community Detection | Ilke Candar | OPEN |
 | 10/06 | QAP and CUG Testing | Darcy Norris | OPEN |
 | 10/13 | ERGM Introduction | OPEN | OPEN |
 | 10/20 | ERGM Specification | OPEN | OPEN |
@@ -20,4 +20,4 @@ Present a detailed tutorial of the week's method. One methods slot per student. 
 | 11/03 | LSM Extensions and AMEN | OPEN | OPEN |
 | 11/10 | Confounding of Selection and Influence | OPEN | OPEN |
 | 11/17 | Causal Inference with Interference and Contagion | OPEN | OPEN |
-| 12/01 | Graph Neural Networks for Prediction | OPEN | OPEN |
+| 12/01 | Graph Neural Networks for Prediction | Kadir Cihan Duran | OPEN |
