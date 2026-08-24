@@ -11,9 +11,9 @@ Write a review of, and lead discussion for, one of the week's application papers
 |------|-------|--------|--------|
 | 09/01 | Making and Visualizing Networks with R | OPEN | OPEN |
 | 09/08 | Centrality | Jody Park — Liu, Hannibal and Vedlitz (2025) | OPEN |
-| 09/15 | Reciprocity and Transitivity | OPEN | OPEN |
-| 09/22 | Popularity and Assortative Mixing | OPEN | OPEN |
-| 09/29 | Community Detection | OPEN | OPEN |
+| 09/15 | Reciprocity and Transitivity | Ilke Candar — Holland and Leinhardt, 1971 | OPEN |
+| 09/22 | Popularity and Assortative Mixing | Jolie Kretzschmar — Butters & Hare (2022) | OPEN |
+| 09/29 | Community Detection | Kadir Cihan Duran — Yang, Algesheimer and Tessone, 2016 | OPEN |
 | 10/06 | QAP and CUG Testing | OPEN | OPEN |
 | 10/13 | ERGM Introduction | OPEN | OPEN |
 | 10/20 | ERGM Specification | OPEN | OPEN |

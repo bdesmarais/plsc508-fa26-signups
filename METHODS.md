@@ -14,7 +14,7 @@ Present a detailed tutorial of the week's method. One methods slot per student. 
 | 09/22 | Popularity and Assortative Mixing | Yipeng Zhao | OPEN |
 | 09/29 | Community Detection | Ilke Candar | OPEN |
 | 10/06 | QAP and CUG Testing | Darcy Norris | OPEN |
-| 10/13 | ERGM Introduction | OPEN | OPEN |
+| 10/13 | ERGM Introduction | Jolie Kretzschmar | OPEN |
 | 10/20 | ERGM Specification | OPEN | OPEN |
 | 10/27 | Latent Space Models | OPEN | OPEN |
 | 11/03 | LSM Extensions and AMEN | OPEN | OPEN |
