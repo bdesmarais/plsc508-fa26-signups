@@ -18,6 +18,6 @@ Present a detailed tutorial of the week's method. One methods slot per student. 
 | 10/20 | ERGM Specification | OPEN | OPEN |
 | 10/27 | Latent Space Models | OPEN | OPEN |
 | 11/03 | LSM Extensions and AMEN | OPEN | OPEN |
-| 11/10 | Confounding of Selection and Influence | OPEN | OPEN |
+| 11/10 | Confounding of Selection and Influence | Oguzalp Samli | OPEN |
 | 11/17 | Causal Inference with Interference and Contagion | OPEN | OPEN |
 | 12/01 | Graph Neural Networks for Prediction | Kadir Cihan Duran | OPEN |

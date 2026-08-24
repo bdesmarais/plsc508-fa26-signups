@@ -9,7 +9,7 @@ Write a review of, and lead discussion for, one of the week's application papers
 
 | Date | Topic | Slot 1 | Slot 2 |
 |------|-------|--------|--------|
-| 09/01 | Making and Visualizing Networks with R | OPEN | OPEN |
+| 09/01 | Making and Visualizing Networks with R | Oguzalp Samli — Yin (2025) | OPEN |
 | 09/08 | Centrality | Jody Park — Liu, Hannibal and Vedlitz (2025) | OPEN |
 | 09/15 | Reciprocity and Transitivity | Ilke Candar — Holland and Leinhardt, 1971 | OPEN |
 | 09/22 | Popularity and Assortative Mixing | Jolie Kretzschmar — Butters & Hare (2022) | OPEN |
