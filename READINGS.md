@@ -17,7 +17,7 @@ Write a review of, and lead discussion for, one of the week's application papers
 | 10/06 | QAP and CUG Testing | OPEN | OPEN |
 | 10/13 | ERGM Introduction | OPEN | OPEN |
 | 10/20 | ERGM Specification | OPEN | OPEN |
-| 10/27 | Latent Space Models | OPEN | OPEN |
+| 10/27 | Latent Space Models | Yipeng Zhao — KIRKLAND (2012) | OPEN |
 | 11/03 | LSM Extensions and AMEN | OPEN | OPEN |
 | 11/10 | Confounding of Selection and Influence | Maya Kerr Coste — Bond et al. 2012 | OPEN |
 | 11/17 | Causal Inference with Interference and Contagion | OPEN | OPEN |
