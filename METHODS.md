@@ -16,7 +16,7 @@ Present a detailed tutorial of the week's method. One methods slot per student. 
 | 10/06 | QAP and CUG Testing | Darcy Norris | OPEN |
 | 10/13 | ERGM Introduction | Jolie Kretzschmar | OPEN |
 | 10/20 | ERGM Specification | OPEN | OPEN |
-| 10/27 | Latent Space Models | OPEN | OPEN |
+| 10/27 | Latent Space Models | Jayson Smith | OPEN |
 | 11/03 | LSM Extensions and AMEN | OPEN | OPEN |
 | 11/10 | Confounding of Selection and Influence | Oguzalp Samli | OPEN |
 | 11/17 | Causal Inference with Interference and Contagion | OPEN | OPEN |
