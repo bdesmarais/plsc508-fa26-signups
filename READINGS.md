@@ -15,10 +15,10 @@ Write a review of, and lead discussion for, one of the week's application papers
 | 09/22 | Popularity and Assortative Mixing | Jolie Kretzschmar — Butters & Hare (2022) | OPEN |
 | 09/29 | Community Detection | Kadir Cihan Duran — Yang, Algesheimer and Tessone, 2016 | OPEN |
 | 10/06 | QAP and CUG Testing | Darcy Norris — Ertan, Çarkoğlu and Aytaç (2022) | OPEN |
-| 10/13 | ERGM Introduction | OPEN | OPEN |
-| 10/20 | ERGM Specification | OPEN | OPEN |
+| 10/13 | ERGM Introduction | Yasin Shafi — Duque, Marina G. 2018 | OPEN |
+| 10/20 | ERGM Specification | Xiaohang Sun — Song (2015) | OPEN |
 | 10/27 | Latent Space Models | Yipeng Zhao — KIRKLAND (2012) | OPEN |
 | 11/03 | LSM Extensions and AMEN | Jayson Smith — Dorff, Cassy, Max Gallop and Shahryar Minhas. 2020 | OPEN |
 | 11/10 | Confounding of Selection and Influence | Maya Kerr Coste — Bond et al. 2012 | OPEN |
-| 11/17 | Causal Inference with Interference and Contagion | OPEN | OPEN |
+| 11/17 | Causal Inference with Interference and Contagion | Carlos Freitas Almeida — Fyfe & Desmarais 2024 | OPEN |
 | 12/01 | Graph Neural Networks for Prediction | OPEN | OPEN |

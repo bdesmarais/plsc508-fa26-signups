@@ -15,9 +15,9 @@ Present a detailed tutorial of the week's method. One methods slot per student. 
 | 09/29 | Community Detection | Ilke Candar | OPEN |
 | 10/06 | QAP and CUG Testing | Darcy Norris | OPEN |
 | 10/13 | ERGM Introduction | Jolie Kretzschmar | OPEN |
-| 10/20 | ERGM Specification | OPEN | OPEN |
+| 10/20 | ERGM Specification | Yasin Shafi | OPEN |
 | 10/27 | Latent Space Models | Jayson Smith | OPEN |
-| 11/03 | LSM Extensions and AMEN | OPEN | OPEN |
+| 11/03 | LSM Extensions and AMEN | Carlos Freitas Almeida | OPEN |
 | 11/10 | Confounding of Selection and Influence | Oguzalp Samli | OPEN |
-| 11/17 | Causal Inference with Interference and Contagion | OPEN | OPEN |
+| 11/17 | Causal Inference with Interference and Contagion | Xiaohang Sun | OPEN |
 | 12/01 | Graph Neural Networks for Prediction | Kadir Cihan Duran | OPEN |
