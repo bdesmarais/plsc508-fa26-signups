@@ -21,4 +21,4 @@ Write a review of, and lead discussion for, one of the week's application papers
 | 11/03 | LSM Extensions and AMEN | Jayson Smith — Dorff, Cassy, Max Gallop and Shahryar Minhas. 2020 | OPEN |
 | 11/10 | Confounding of Selection and Influence | Maya Kerr Coste — Bond et al. 2012 | OPEN |
 | 11/17 | Causal Inference with Interference and Contagion | Carlos Freitas Almeida — Fyfe & Desmarais 2024 | OPEN |
-| 12/01 | Graph Neural Networks for Prediction | OPEN | OPEN |
+| 12/01 | Graph Neural Networks for Prediction | Spencer Kuhn — Zawad, Brandt, Khan, D’Orazio and Osorio (2025) | OPEN |
